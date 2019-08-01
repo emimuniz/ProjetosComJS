@@ -7,13 +7,19 @@ html, body{
 /*Colocando imagem no fundo e textos no meio */
 body{
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     background: url(../img/5800fd7014d49.jpg) no-repeat 50% 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
 
 .playing{
     transform: scale(1.1);
@@ -27,17 +33,17 @@ body{
     margin: 1rem;
     font-size: 1.5rem;
     padding: 1rem .5rem;
-    transition: all 1.07s;
-    width: 100px;
+    transition: all 05s ease;
+    width: 10rem;
     text-align: center;
     color: center;
     background: rgba(0, 0, 0, 0.4);
-    text-shadow: 0 0 5px black;
+    text-shadow: 0 0 5rem black;
 }
 
 kbd{
     display: block;
-    font-size: 40px;
+    font-size: 4rem;
 }
 
 .sound {
