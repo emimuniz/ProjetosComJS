@@ -1,0 +1,59 @@
+html {
+    overflow-x: hidden; 
+}
+
+body{
+    background: url(../img/background.jpg);
+}
+#scene{
+    width: 50%;
+    height: 50vh;
+    z-index: 1;
+}
+nav{
+    color: white;
+}
+
+#sobreMim{
+        width: 50%;
+        height: 100vh;
+        margin: 0 auto;
+        z-index: 0;
+        opacity:.5;
+        background-color: black;
+        color: white; 
+}
+
+#sobreMim h2{
+    text-align: center;
+    margin: 50px;
+}
+
+#sobreMim p{
+    padding: 10px;
+}
+
+.centralizarTexto, .centralizarPlaneta1, 
+.centralizarPlaneta2, .centralizarAstronaut{
+    position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}  
+
+.centralizarTexto{
+    margin: 100px;
+
+}
+
+.centralizarPlaneta1{
+    margin: -50px;
+
+}
+
+.centralizarPlaneta2{
+    margin: -50px;
+
+}
+
+.centralizarAstronaut{
+    margin: 80px;
+}

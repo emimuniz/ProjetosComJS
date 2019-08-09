@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+    font-family: "Roboto Cn", sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+  background: #f5f5f5;
+}
+
+header{
+    width: 100%;
+    height: 50vh;
+    background: url(../img/bgTomo.jpg) center no-repeat;
+    background-size: cover;
+}
+
+
+.abertura,
+.blog,
+.contato {
+  padding: 3em 0 6em 0;
+  text-align: center;
+}
+
+.titulo-secao {
+    text-decoration: underline;
+    font-size: 2em;
+    text-align: center;
+}
+
+/*menu*/
+
+nav .menu{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #111;
+    width: 100%;
+    height: 50px; 
+    z-index: 1;
+}
+
+nav .menu{
+    display: flex;
+    list-style: none;
+    margin-right: 15%;
+}
+
+.menu a{
+    margin: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu a:hover{
+    color: white;
+}
+
+
+/*planos*/
+.planos {
+margin-bottom: 0;
+text-align: center;
+justify-content: center;
+}
+
+.plano {
+background: white;
+width: 40em;
+display: inline-block;
+margin: 1em 0 0 1em;
+padding-bottom: 2em;
+transform: translate(0%, -50%);
+}
+
+.plano:hover {
+background: #f9f9f9;
+}
+
+.plano h3 {
+color:purple;
+font-size: 1.8em;
+text-align: center;
+height: 2em;
+padding-top: .6em;
+margin-top: 0;
+}
+
+.plano div {
+text-align: center;
+color: gray;
+}
+
+.itens-plano li {
+font-size: 1em;
+list-style: none;
+border-bottom: 1px solid #acacac;
+}
+
+.itens-plano li:last-child {
+border: 0;
+}
+
+a{
+text-decoration: none;
+}
+
+
+
+/* slide */
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.slide{
+    display: flex;
+}
+
+.slide li{
+    flex-shrink: 0;
+    width: 80vw;
+    max-width: 800px;
+    margin: 0 20px;
+
+}
