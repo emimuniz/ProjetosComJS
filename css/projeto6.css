@@ -70,50 +70,50 @@ nav .menu{
 
 /*planos*/
 .planos {
-margin-bottom: 0;
-text-align: center;
-justify-content: center;
+    margin-bottom: 0;
+    text-align: center;
+    justify-content: center;
 }
 
 .plano {
-background: white;
-width: 40em;
-display: inline-block;
-margin: 1em 0 0 1em;
-padding-bottom: 2em;
-transform: translate(0%, -50%);
+    background: white;
+    width: 40em;
+    display: inline-block;
+    margin: 1em 0 0 1em;
+    padding-bottom: 2em;
+    transform: translate(0%, -50%);
 }
 
 .plano:hover {
-background: #f9f9f9;
+    background: #f9f9f9;
 }
 
 .plano h3 {
-color:purple;
-font-size: 1.8em;
-text-align: center;
-height: 2em;
-padding-top: .6em;
-margin-top: 0;
+    color:purple;
+    font-size: 1.8em;
+    text-align: center;
+    height: 2em;
+    padding-top: .6em;
+    margin-top: 0;
 }
 
 .plano div {
-text-align: center;
-color: gray;
+    text-align: center;
+    color: gray;
 }
 
 .itens-plano li {
-font-size: 1em;
-list-style: none;
-border-bottom: 1px solid #acacac;
+    font-size: 1em;
+    list-style: none;
+    border-bottom: 1px solid #acacac;
 }
 
 .itens-plano li:last-child {
-border: 0;
+    border: 0;
 }
 
 a{
-text-decoration: none;
+    text-decoration: none;
 }
 
 
@@ -140,4 +140,17 @@ img{
     max-width: 800px;
     margin: 0 20px;
 
+}
+
+
+/*footer*/
+.social{
+    background-color: black;
+    padding: 10px;
+    text-align: right;
+}
+
+.fab{
+    color: white;
+    font-size: 20px;
 }
