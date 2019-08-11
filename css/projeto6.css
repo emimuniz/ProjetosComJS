@@ -146,11 +146,17 @@ img{
 /*footer*/
 .social{
     background-color: black;
-    padding: 10px;
+    padding: 30px;
     text-align: right;
+}
+
+footer ul li{
+    float: right;
+    margin: 0 5px;
+    text-align: center;
 }
 
 .fab{
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
